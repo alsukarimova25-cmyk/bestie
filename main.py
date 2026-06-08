@@ -1,6 +1,3 @@
-
-
-```python
 import os
 import anthropic
 from telegram import Update
@@ -37,5 +34,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
