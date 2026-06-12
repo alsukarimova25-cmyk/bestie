@@ -19,7 +19,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_message = update.message.text
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+      model="claude-sonnet-4-5-20250929",
         max_tokens=1000,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_message}]
